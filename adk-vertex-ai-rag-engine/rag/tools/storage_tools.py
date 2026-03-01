@@ -43,7 +43,7 @@ def create_gcs_bucket(
         tool_context: The tool context for ADK
         bucket_name: The name of the bucket to create
         storage_class: Storage class for the bucket (default: STANDARD)
-        location: Location for the bucket (default: US for multi-regional)
+        
         
     Returns:
         A dictionary containing the result of the bucket creation
